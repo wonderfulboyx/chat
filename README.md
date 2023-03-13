@@ -14,7 +14,7 @@ pipenv sync
 1. OpenAIのAPI TOKENを取得して `.env` ファイルに保存
 
 ```
-OPENAI_API_KEY=sk-...
+OPENAI_KEY=sk-...
 ```
 
 2. 読み込みたいコンテンツをjsonにする
