@@ -3,7 +3,10 @@
 0. pythonをセットアップする
 
 ```
-# pipenvをinstallしてなければinstallしてから
+# pyenvをinstallしてなければinstallしてから
+pyenv install
+
+pip install pipenv
 
 pipenv sync
 ```
