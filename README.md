@@ -22,17 +22,17 @@ OPENAI_API_KEY=sk-...
 export_content.pyのCONTENT_DIRをコンテンツが格納されているPATHに切り替える
 
 ```sh
-python export_content.py
+pipenv run python export_content.py
 ```
 
 3. コンテンツの埋め込み表現をつくる
 
 ```sh
-python make_index.py
+pipenv run python make_index.py
 ```
 
 4. チャットを起動する
 
 ```sh
-python chatai.py --chat
+pipenv run python chatai.py --chat
 ```
